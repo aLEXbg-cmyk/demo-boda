@@ -1,0 +1,209 @@
+/* ========================================================
+   PALETA NUPCIAL CLÁSICA (MODO BODA INDEPENDIENTE)
+   Fondo Marfil: #FAF8F5 | Tarjetas: #FFFFFF | Bordes Champán: #E7E5E4
+   Acentos/Iconos Dorado Metálico: #D4AF37 | Títulos/Botones Azul Noche: #0F172A
+   ======================================================== */
+
+body {
+    /* Fondo general marfil con destellos champán sutiles */
+    background-color: #FAF8F5;
+    background-image:
+        radial-gradient(circle at 12% 18%, rgba(212, 175, 55, 0.12) 0%, transparent 45%),
+        radial-gradient(circle at 88% 82%, rgba(231, 229, 228, 0.6) 0%, transparent 45%);
+    background-attachment: fixed;
+    transition: background-color 0.35s ease, color 0.35s ease;
+}
+
+body::before {
+    background:
+        radial-gradient(circle at 12% 18%, rgba(212, 175, 55, 0.14) 0%, transparent 45%),
+        radial-gradient(circle at 88% 42%, rgba(231, 229, 228, 0.55) 0%, transparent 50%),
+        radial-gradient(circle at 50% 80%, rgba(212, 175, 55, 0.08) 0%, transparent 55%);
+}
+
+/* Overrides para estilos con colores hardcodeados en styles.css */
+.luxury-navbar {
+    background: rgba(250, 248, 245, 0.94);
+    border-bottom: 1px solid #E7E5E4;
+    box-shadow: 0 4px 20px rgba(15, 23, 42, 0.07);
+    transition: background-color 0.35s ease, border-color 0.35s ease, box-shadow 0.35s ease;
+}
+
+.nav-monogram {
+    background: linear-gradient(135deg, #FFFFFF 0%, #FAF8F5 100%);
+    border-color: #D4AF37;
+    color: #0F172A;
+    box-shadow: 0 2px 10px rgba(212, 175, 55, 0.22);
+}
+
+.nav-highlight {
+    background: linear-gradient(135deg, #1E293B 0%, #0F172A 100%);
+    color: #FFFFFF;
+    box-shadow: 0 4px 15px rgba(15, 23, 42, 0.28);
+}
+
+.nav-highlight:hover {
+    box-shadow: 0 6px 20px rgba(212, 175, 55, 0.4);
+}
+
+.music-prompt-card,
+.luxury-modal-card {
+    background: #FFFFFF;
+    border-color: #E7E5E4;
+    box-shadow: 0 24px 60px rgba(15, 23, 42, 0.22);
+}
+
+.prompt-btn-music,
+.btn-luxury-modal-action,
+.btn-submit-rsvp {
+    background: linear-gradient(135deg, #1E293B 0%, #0F172A 100%);
+    color: #FFFFFF;
+    box-shadow: 0 8px 24px rgba(15, 23, 42, 0.28);
+}
+
+.prompt-btn-music:hover,
+.btn-luxury-modal-action:hover,
+.btn-submit-rsvp:hover {
+    background: linear-gradient(135deg, #D4AF37 0%, #B48E24 100%);
+    box-shadow: 0 10px 28px rgba(212, 175, 55, 0.35);
+}
+
+.prompt-btn-silent {
+    background: #FAF8F5;
+    border-color: #E7E5E4;
+    color: #0F172A;
+}
+
+.floating-audio-control {
+    background: rgba(255, 255, 255, 0.94);
+    border-color: #D4AF37;
+    color: #0F172A;
+    box-shadow: 0 4px 18px rgba(15, 23, 42, 0.16);
+}
+
+.floating-audio-control.playing {
+    background: #FAF8F5;
+    border-color: #D4AF37;
+    color: #D4AF37;
+}
+
+.monogram-badge {
+    background: linear-gradient(135deg, #FFFFFF 0%, #FAF8F5 100%);
+    border-color: #D4AF37;
+    box-shadow: 0 4px 16px rgba(212, 175, 55, 0.25);
+}
+
+.monogram-badge svg {
+    fill: #D4AF37;
+}
+
+.hero-name.gold-text {
+    background: linear-gradient(135deg, #0F172A 0%, #334155 55%, #D4AF37 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.photo-frame-wrapper {
+    background: linear-gradient(145deg, #FAF8F5 0%, #D4AF37 45%, #0F172A 100%);
+    box-shadow: 0 18px 45px rgba(15, 23, 42, 0.18);
+}
+
+.photo-inner-frame {
+    background: radial-gradient(circle at 50% 35%, #FFFFFF 0%, #FAF8F5 65%, #E7E5E4 100%);
+    border: 3px solid #FFFFFF;
+    box-shadow: inset 0 0 30px rgba(212, 175, 55, 0.18);
+}
+
+.placeholder-crown svg {
+    fill: #D4AF37;
+}
+
+.placeholder-monogram,
+.placeholder-name {
+    color: #0F172A;
+}
+
+.placeholder-sub {
+    color: #D4AF37;
+}
+
+.photo-corner-badge {
+    background: linear-gradient(135deg, #1E293B 0%, #0F172A 100%);
+    color: #FFFFFF;
+    border-color: #D4AF37;
+}
+
+.countdown-card,
+.section-card,
+.location-box,
+.gift-card,
+.honor-item {
+    background: #FFFFFF;
+    border-color: #E7E5E4;
+}
+
+.section-card::before {
+    background: linear-gradient(90deg, #E7E5E4 0%, #D4AF37 50%, #0F172A 100%);
+}
+
+.section-icon {
+    background: #FAF8F5;
+    border-color: #E7E5E4;
+}
+
+.section-icon svg,
+.gold-divider svg {
+    fill: #D4AF37;
+}
+
+.location-type,
+.dresscode-type,
+.gift-registry-badge {
+    background: #FAF8F5;
+    border-color: #E7E5E4;
+    color: #0F172A;
+}
+
+.btn-map {
+    background: linear-gradient(135deg, #1E293B 0%, #0F172A 100%);
+    color: #FFFFFF;
+    border-color: #0F172A;
+}
+
+.btn-map:hover {
+    background: linear-gradient(135deg, #D4AF37 0%, #B48E24 100%);
+    border-color: #D4AF37;
+}
+
+.attendance-card.selected-yes {
+    background: #FAF8F5;
+    border-color: #D4AF37;
+    box-shadow: 0 4px 16px rgba(212, 175, 55, 0.2);
+}
+
+.passes-btn {
+    background: #FAF8F5;
+    border-color: #E7E5E4;
+    color: #0F172A;
+}
+
+.passes-btn:hover {
+    background: #0F172A;
+    color: #FFFFFF;
+}
+
+.attendees-count-badge {
+    background: rgba(212, 175, 55, 0.16) !important;
+    color: #0F172A !important;
+}
+
+.luxury-modal-monogram {
+    background: linear-gradient(135deg, #FAF8F5 0%, #E7E5E4 100%);
+    border-color: #D4AF37;
+    color: #0F172A;
+}
+
+.footer-section {
+    border-top-color: #E7E5E4;
+}

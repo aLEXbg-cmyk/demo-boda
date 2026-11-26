@@ -1,0 +1,87 @@
+/* ========================================================
+   VARIABLES DE DISEÑO Y SISTEMA DE TOKENS (CSS3)
+   Paleta Nupcial Clásica (Marfil, Champán, Dorado y Azul Noche)
+   ======================================================== */
+
+:root {
+   /* Tokens principales */
+   --fondo-general-pagina: #FAF8F5;
+   --contenedores-tarjetas: #FFFFFF;
+   --bordes-divisores-badges: #E7E5E4;
+   --detalles-chips-iconos: #D4AF37;
+   --botones-cta-rsvp-acentos: #0F172A;
+   --titulos-nombres-contraste: #0F172A;
+   --texto-cuerpo: #334155;
+
+   /* Alias canónicos del sistema de diseño */
+   --color-bg-page: #FAF8F5;
+   --color-container-sub: #FAF8F5;
+   --color-border-divider: #E7E5E4;
+   --color-decorative-icon: #D4AF37;
+   --color-action-cta: #D4AF37;
+   --color-title-contrast: #0F172A;
+   --color-body-text: #334155;
+
+   /* Nombres cortos de alta conveniencia */
+   --bg-page: #FAF8F5;
+   --container-sub: #FAF8F5;
+   --border-divider: #E7E5E4;
+   --decorative-icon: #D4AF37;
+   --action-cta: #D4AF37;
+   --title-contrast: #0F172A;
+   --body-text: #334155;
+
+   /* Mapeo de tokens heredados */
+   --color-rose-soft: #FAF8F5;
+   --color-rose-light: #E7E5E4;
+   --color-rose-gold: #D4AF37;
+   --color-rose-deep: #0F172A;
+   --color-rose-glow: rgba(212, 175, 55, 0.35);
+
+   --color-gold-light: #FAF8F5;
+   --color-gold-primary: #D4AF37;
+   --color-gold-dark: #0F172A;
+   --color-gold-foil: linear-gradient(135deg, #F3E5AB 0%, #D4AF37 45%, #0F172A 100%);
+   --color-gold-glow: rgba(212, 175, 55, 0.38);
+   --color-border-gold: #E7E5E4;
+
+   /* Fondos y Neutros */
+   --color-bg-ivory: #FFFFFF;
+   --color-bg-card: rgba(255, 255, 255, 0.98);
+   --color-bg-card-hover: #FFFFFF;
+   --color-text-main: #334155;
+   --color-text-muted: #64748B;
+   --color-text-light: #FFFFFF;
+
+   /* Fondos contrastantes */
+   --color-royal-dark: #0F172A;
+   --color-royal-card: #1E293B;
+
+   /* Degradados Azul Noche & Dorado Metálico */
+   --gradient-cta-btn: linear-gradient(135deg, #1E293B 0%, #0F172A 100%);
+   --gradient-cta-hover: linear-gradient(135deg, #D4AF37 0%, #B48E24 100%);
+   --gradient-card-ribbon: linear-gradient(90deg, #E7E5E4 0%, #D4AF37 50%, #0F172A 100%);
+
+   /* Tipografías */
+   --font-script: 'Great Vibes', cursive;
+   --font-serif-display: 'Cinzel Decorative', 'Cinzel', serif;
+   --font-serif-body: 'Cormorant Garamond', Georgia, serif;
+   --font-sans: 'Montserrat', system-ui, -apple-system, sans-serif;
+
+   /* Sombras y Elevaciones */
+   --shadow-soft: 0 10px 30px rgba(15, 23, 42, 0.06);
+   --shadow-gold: 0 8px 30px rgba(212, 175, 55, 0.25);
+   --shadow-card: 0 16px 45px rgba(15, 23, 42, 0.08);
+   --shadow-floating: 0 20px 50px rgba(15, 23, 42, 0.22);
+
+   /* Bordes y Radios */
+   --radius-sm: 8px;
+   --radius-md: 16px;
+   --radius-lg: 24px;
+   --radius-full: 9999px;
+
+   /* Transiciones */
+   --transition-fast: 0.2s ease;
+   --transition-smooth: 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+   --transition-bounce: 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+}

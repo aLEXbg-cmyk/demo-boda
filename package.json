@@ -1,0 +1,27 @@
+{
+  "name": "invitacion-boda-mvc",
+  "version": "1.0.0",
+  "description": "Invitación interactiva de Boda (Sofía & Mateo) con confirmación RSVP bajo arquitectura Modelo-Vista-Controlador (MVC)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "build:css": "tailwindcss -i css/input.css -o css/tailwind.css --minify",
+    "watch:css": "tailwindcss -i css/input.css -o css/tailwind.css --watch"
+  },
+  "keywords": [
+    "boda",
+    "wedding",
+    "invitacion",
+    "mvc",
+    "rsvp"
+  ],
+  "author": "Antigravity",
+  "license": "MIT",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "bootstrap-icons": "^1.13.2",
+    "mysql2": "^3.24.6",
+    "tailwindcss": "^4.3.3"
+  }
+}
